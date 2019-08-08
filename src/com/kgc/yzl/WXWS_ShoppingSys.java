@@ -1,4 +1,5 @@
-package com.yzl;
+package com.kgc.yzl;
+//package com.yzl;
 
 import java.util.Arrays;
 import java.util.Scanner;
