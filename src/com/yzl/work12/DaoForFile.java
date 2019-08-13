@@ -8,7 +8,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.Map;
 
-public class DaoToFile {
+public class DaoForFile {
 
 	public static void writeobject(Map<String, Vip> vipMap, String path) {
 		
