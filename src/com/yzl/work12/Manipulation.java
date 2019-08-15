@@ -47,7 +47,7 @@ public class Manipulation {
 				break;
 			case 6:
 				System.out.println("感谢您的使用！欢迎下次光临");
-				DaoToFile.writeobject(vipMap, path);
+				DaoForFile.writeobject(vipMap, path);
 				System.exit(0);
 				break;
 			default:
@@ -65,7 +65,7 @@ public class Manipulation {
 	public void init() {
 		File file = new File(path);
 		if(file.exists())
-			vipMap = DaoToFile.readobject(path);
+			vipMap = DaoForFile.readobject(path);
 		else
 			vipMap = new HashMap<>();
 	}
